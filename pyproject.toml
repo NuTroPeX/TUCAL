@@ -1,0 +1,15 @@
+[project]
+name = "tucal"
+version = "0.1.0"
+description = "Agentic movie director toolkit for the TUCAL interface."
+readme = "README.md"
+requires-python = ">=3.10"
+
+[project.scripts]
+tucal-direct = "tucal.cli:main"
+
+[tool.ruff]
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I"]
